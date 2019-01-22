@@ -1,0 +1,47 @@
+
+.banner {
+	background: linear-gradient(rgba(0,0,100,0.5), rgba(0,0,100,0.5)),url("img/background.jpg");
+	background-size: cover;
+}
+
+.banner {
+	color: white;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+}
+
+.child {
+  scroll-snap-align: start;
+}
+
+.text {
+	text-align: center;
+}
+
+.text h1{
+	font-family: "Monospace";
+	line-height: 100vh;
+}
+
+.text p{
+	height: 100vh;
+	line-height: 100vh;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 80px;
+}
+
+.title{
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: ;
+
+#about {
+	
+}
